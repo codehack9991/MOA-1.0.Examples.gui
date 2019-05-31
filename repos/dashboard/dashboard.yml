@@ -1,0 +1,96 @@
+Repository: 
+  LoginPage:
+      trait: //input[@id="soeid"]
+      usernameTextbox: //input[@id="soeid"]
+      passwordTextbox: //input[@id="password"]
+      signOnButton: //input[@id="login_button"]
+  
+  FASTMainPage:
+     trait: //*[@id="dashboardReload"]
+     welcome: //*[@id="header"]/div/div[1]/label[1]
+     liAutoReporting: //*[@id="liAutoReporting"]
+     ulAutoReporting: //*[@id="ulAutoReporting"]/li[1]
+     liCitiFuse: //*[@id="liCitiFuse"]
+     liFramework: //*[@id="liCitiFuse"]/ul/li
+     ProjectButton: //*[@id="headerTab"]/div[1]/div/table/tbody/tr/td[4]/div/button
+     ProjectSelector: //*[@id="headerTab"]/div[1]/div/table/tbody/tr/td[4]/div/ul
+     ProjectFast: //select[@id='appInSearch']/../div/ul/li/a/label/input[@value="5c1c5467586659546c295e02"]/..
+     SearchButton: //input[@name="Search"]
+     
+     
+     Tbody: //*[@id="lastedRuntbody"]
+     FirstCell: //*[@id="lastedRuntbody"]/tr[SpecialValue]/td[1]
+     CETQaAutomation: //tbody[@id='lastedRuntbody']/tr/td[text()='CET QA Automation Framework(C167813)']
+     FASTCases: //tbody[@id='lastedRuntbody']/tr/td/a[text()='FAST']/..
+     Regression: //tbody/tr/td[text()[contains(.,'Regression')]]
+     FirstSuite: //tbody/tr/td[text()[contains(.,'Regression')]]/../following-sibling::tr/td
+     FirstFeature: //tbody/tr/td[text()[contains(.,'Regression')]]/../following-sibling::tr[2]/td/a
+     FirstCase: //tbody[@id='senariostbody']/tr[1]/td[2]/i
+     CaseStep: //tbody[@id='senariostbody']/tr[1]/following-sibling::tr/td/div/div/table[@id='stepsDetailTable']
+     DeleteSampe: //*[@id="lastedRuntbody"]/tr[4]/td[1]/a
+     NoButton: .modal-dialog .modal-content div.bootstrap-dialog-footer button:nth-child(2)
+ 
+     AdminTool: //*[@id="adminTool"]
+     AdminAuthentication: //*[@id="adminTool"]/ul/li[1]
+     
+     adminMenuItem: //a[@href='adminAuthentication']
+     
+     AdminSubmitButton: //*[@id="adminContent"]/div[2]/button
+     Testuser: //*[@id="tbodyUsers"]/tr[1]/td[2]/button
+     Information: //*[@class="modal bootstrap-dialog type-primary fade size-normal in"]/div/div/div[2]/div/div
+     classInfor: //*[@class="modal bootstrap-dialog type-primary fade size-normal in"]/div/div/div[1]/div/div[1]/button
+     Add: //*[@id="btnAdd"]
+     InputUser: //*[@id="tbodyUsers"]/tr/td/input
+     
+     
+     ProjectManagement: //*[@id="adminTool"]/ul/li[2]     
+     projectMenuItem: //a[@href='fastproject.html']
+     userGuid: //*[@id="btnUserGuid"]
+     addUserBtn: '#btnAdd'
+     jiraKeyInput: //div/div[2]/input
+     jiraNameInput: //div/div[3]/input
+     plInput: //div/div[4]/input
+     projectInput: //div/div[5]/input
+     qaLeadInput: //div/div[6]/input
+     regionInput: //div/div[7]/input
+     ownerInput: //div/div[8]/input
+     deleteInput: //div/div[2]/input/../../div[1]/div/div/button
+     confirmBtnNo: '#btnFormNo'
+     confirmBtnYes: '#btnFormYes'
+     warningDialog: '.bootstrap-dialog-message'
+     dialogCloseBtn: '.bootstrap-dialog-close-button .close'     
+     
+     nextPage: //*[@id="guideCarousel"]/a[2]
+     closeGuid: //*[@id="userGuideClose"]
+     FASTJira: //*[@id="frmProjects"]/div[1]/div/table/tbody/tr[15]
+     ProjectUpdate: //*[@id="btnUpdate"]
+     Region: //*[@id="txtFormRegion"]
+     ProjectSubmit: //*[@id="btnFormSubmit"]
+     ProjectCancle: //*[@id="btnFormCancel"]
+     ProjectInforCancle: //*[@class="modal bootstrap-dialog type-primary fade size-normal in"]/div/div/div[3]/div/div/button[2]
+     cancle: //*[@class="modal bootstrap-dialog type-primary fade size-normal in"]/div/div/div[1]/div/div[1]/button
+     JiraKey: //*[@id="txtFormJiraKey"]
+     ProjectName: //*[@id="txtFormPrjName"]
+     ReleaseName: //*[@id="txtFormReleaseName"]
+     SearchProject: //*[@id="txtProjectName"]
+     SearchJira: //*[@id="txtJiraKey"]
+     FirstProject: //*[@id="tbodyProjects"]/tr
+     
+     JiraProject: //*[@id="adminTool"]/ul/li[3]
+     AutomationLead: //*[@id="txtFormAutoLead"]
+     FirstJira: //*[@id="frmProjects"]/div[1]/div/table/tbody/tr[1]
+     
+     SearchInput: //*[@id="txtSearch"]
+     SearchButton2: //*[@id="btnBasicSearch"]
+     DropdownButton: //*[@id="basicSearch"]/div/div[2]/button[2]
+     AdvancedSearch: //*[@id="basicSearch"]/div/div[2]/ul/li
+     ToolFran: //*[@id="txtFramework"]
+     AdvancedSearchBtn: //*[@id="btnAdvancedSearch"]
+     
+     logoutBtn: '#logOutForm'
+     logoutConfirmBtn: '#logOutConfirm'
+     loginUserNameInput: '#username'
+     loginPasswordInput: '#password'
+     loginBtn: '#login-button'
+     
+     
