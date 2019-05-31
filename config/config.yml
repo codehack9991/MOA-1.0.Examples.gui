@@ -1,0 +1,27 @@
+# configFilename=config/config.yml by default
+# other default values - they can be overriden with -DuserName="username" and -DenvironmentName="envName"
+# userName and environmentName values should be lowercase
+userName: "xx12345"
+environmentName: "gui"
+
+Environments:  
+  gui: environments/gui.yml
+
+Users:  
+  zl15994: users/xx12345.yml
+
+Params:
+  any: '/(.)+/'
+  timeformat: '/\\d{8}-\\d{2}:\\d{2}:\\d{2}/'
+  replaceformat: '/\\d{8}-\\d{2}:\\d{2}:\\d{2}\\.\\d{3}/'
+  Price: 44
+  AggressivePrice: 43
+  
+JiraUploader:
+  Enabled: true
+  Url: https:\\yoururl.com        
+  User: zl83666
+  Password: xxxxxx
+  Project: CET QA Automation Framework
+  Cycle: Ad hoc
+  
