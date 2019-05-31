@@ -1,0 +1,26 @@
+Agents:
+  WebAgent:
+    class_name: 'fast.common.agents.WebBrowserAgent'
+    headless: no
+    headlessBrowser: ie
+    driverClassName: 'org.openqa.selenium.chrome.ChromeDriver'
+    webDriverPath: drivers/webdriver/chromedriver.exe
+#    driverClassName: 'org.openqa.selenium.ie.InternetExplorerDriver'
+#    webDriverPath: drivers/webdriver/IEDriverServer.exe
+    webRepo:  repos/sample_web
+    chromeArgument:
+    chromePrefs:   
+      download.default_directory: 
+#    proxy: host:port
+#   Proxy setting is optional, dependent on local network
+  DesktopAgent:
+    class_name: 'fast.common.agents.UiaAgent'    
+    uiadriver: drivers/desktopdriver\WhiteDriver.exe
+    uiRepo: repos/calculator.xml
+  
+  LeanftAgent:
+    class_name: 'fast.common.agents.LeanftAgent'
+    leanftEngine: 'C:/Program Files (x86)/HP/LeanFT/bin/LFTRuntime.exe'
+    appModel: 'fast.leanft.model.CalcJava'
+    modelJar: 'repos/model.jar'
+ 
