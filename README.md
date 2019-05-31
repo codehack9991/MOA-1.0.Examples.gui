@@ -1,5 +1,47 @@
+# What is MOA-1.0 ??
+FAST is a modular automa±on framework for func±onal automa±on. FAST doesn’t dictate how you write tests – quite the opposite – it provides you with a set of core components and op±ons that you are free to use to meet the needs of your project
+
+# Key Features
+ - Pluggable components which can be combined as required (GUI and non-GUI) 
+ - Support any protocols that Ci± is using (FIX, EMS, any other)
+ - Clearly documented and highly usable 
+ - Support ICG Build tools 
+ - Flexible con²gura±on 
+ - Mul±-process and mul±-threaded deployments 
+ - Rich human-readable repor±ng
+
+# Goals
+ - Pluggable components which can be combined as required (GUI and non-GUI) 
+ - Support any protocols that Ci± is using (FIX, EMS, any other) 
+ - Clearly documented and highly usable
+ - Support ICG Build tools 
+ - Flexible con²gura±on
+ - Mul±-process and mul±-threaded deployments 
+ - Rich human-readable repor±ng
+ 
 # MOA-1.0.Examples.gui
 A demonstration of Automation Testing using our proposed MOA-1.0 framework. In this repo, you will see how to integrate your applications with our MOA-1.0 framework and I can assure this is gonna make the life of SDET engineers a hella lot easier.
+
+# Features
+### Plugins For Cucumber and JUnit allow to: 
+ - Highlight keywords and syntax in test scenarios
+ - Autocomplete test steps 
+ - Navigate through the code From usage to implementaTon oF methods 
+ - Debug test scenarios: set breakpoints, overview/update variables, trace execuTon, etc. 
+ - Run single test scenario, single fle, or any pack oF tests 
+ - See result oF test execuTon in convenient real-Tme report with all debug log
+### Configuration
+Confguraton is convenienT and supporTs all possible needs: 
+ - Multple environmenTs
+ - Multple users 
+ - Multple se±ngs For multple agenTs
+ - Human-Friendly YML FormaT 
+ - Allows everyThing To be kepT in Source ConTrol SysTem: 
+ - global shared se±ngs,
+ - environmenT settings 
+ - user-specifc se±ngs
+ - all These se±ngs can be used aT The same tme 
+ 
 
 # Procedure
 
