@@ -98,7 +98,7 @@ Feature: Web Auto Sample - Wikipedia
 	
 	Examples:
 		|keyword|
-		|Citi|
+		|Selenium|
 		|Cucumber|
 
 * Step 4: Implement steps which not implemented yet with Java glue code. 
