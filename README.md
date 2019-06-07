@@ -126,3 +126,127 @@ Feature: Web Auto Sample - Wikipedia
 
 mvn clean install
 
+## AGENTS 
+### Database Testing
+ 
+Ability to connect, run select and update queries. Supported DB: ORACLE As A Service, ORACLE, SYBASE, SQLSERVER, DB2
+ 
+#### Agent Class : 
+fast.common.agents.DatabaseAgent
+
+#### Configuration Parameters
+databaseType: ORACLE/SYBASE/SQLSERVER/DB2
+hostname: server ip address or name
+port: server port 
+databaseName: name of database 
+username: login user id 
+password: password 
+isDBService: true/false (Optional to be specified only if using OraS) 
+instance: Instance Name (Optional, to be specified if using password encryption with Sybase) 
+encryptPassword: Encrypted Password (Optional, to be specified if using password encryption with Sybase) 
+jceProviderClass: JCE class (Optional, to be specified if using password encryption with Sybase)
+
+
+### Web UI Testing
+Uses selenium to provide testing of Web UI running on chrome, IE. 
+Selenium version 3.6.0
+
+#### Agent Classclass
+fast.common.agents.WebBrowserAgent
+
+#### Configuration Parameters
+headless:YES/NO 
+headlessBrowser: CHROME/IE (if headless = YES)
+webRepo: Repository (Optional) 
+driverClassName: Web driver Class Name 
+driverRemoteAddress: Hostname of the remote machine 
+webDriverPath : Web driver path 
+proxy: proxyAddress for HtmlUnit Driver 
+chromeArgument: Desired Capabilities settings
+chromePrefs: Experimental Chrome Options (Optional, if needed)
+
+
+### SSH Unix connectivity
+Provides ability to connect to unix machine and run commands or transfer files
+
+#### Agent Classclass
+fast.common.agents.SshAgent
+
+#### Configuration Parameters
+hostName: Name/ip address of the machine 
+port: Port number. (Mostly 22)
+username: Login user nam
+password: Login password
+
+
+### Desktop GUI Testing – LeanFT
+Uses LeanFT to test Desktop UI application using Application Model
+
+#### Agent Classclass
+fast.common.agents.LeanftAgent
+
+#### Configuration Parameters
+leanftEngine: Path of LeanFT runtime engine exe 
+appModel: Comma separated Application model classes
+modelJar: Path of Jar containing application models
+ 
+
+### Desktop GUI Testing – UIA (white Driver) 
+Uses whiter driver to test Desktop UI application
+
+#### Agent Classclass
+fast.common.agents.UiaAgent
+
+#### Configuration Parameters
+uiadriver: Path to White Driver exe
+uiRepo: Path to xml containing object repository 
+ 
+
+### Tibco EMS (Topics)
+Provides ability to send, receive and verify FIX messages over Tibco EMS
+
+#### Agent Classclass
+fast.common.agents.FixEmsAgent
+
+#### Configuration Parameters
+data_dictionary: Path of FIX dictionary 
+host: Tibco server hostname
+user: Username 
+password: Password 
+send_topic: Name of topic for sending messages
+receive_topic: Name of topic for sending messages
+
+
+### ELK
+Provides ability to query logs in ELK stash
+
+#### Agent CLassclass
+fast.common.agents.ElkAgent
+
+#### Configuration Parameters
+hostName: Server name hosting ELK 
+port: Port no
+scheme: http
+maxSize: Max number of records to fetch
+aliveTime: Time in minutes (Optional)
+
+### TCP/IP FIX Server 
+Provides ability to start a TCP/IP based server and send/receive messages. It supports FIX message based session. It uses quickfix/J version 6.3 
+
+#### Agent Classclass
+fast.common.agents.FixTcpServerAgent 
+
+#### Configuration Parameters
+QuickFixJ settings
+send_extra_tags: Additional tags to be sent(Optional)
+
+### TCP/IP FIX Client   
+Provides ability to start a TCP/IP based client and send/receive messages. It supports FIX message based session. It uses quickfix/J version 6.3.  
+
+#### Agent Classclass
+fast.common.agents.FixTcpClientAgent 
+
+#### Configuration Parameters
+QuickFixJ settings
+send_extra_tags: Additional tags to be sent(Optional)
+ 
