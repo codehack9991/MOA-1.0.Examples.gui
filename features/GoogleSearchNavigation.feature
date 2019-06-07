@@ -22,18 +22,17 @@ Feature: Google search
   #Scenario: Search in Google
   @Google
   Scenario Outline: Search in Google
-    Given user is on webpage
-    And WebAgent open "https://in.yahoo.com/" url
-    Then WebAgent is on SearchPage
-    And WebAgent type "<keyword>" into Search
+    #When WebAgent set timeout 5 seconds
+    When WebAgent open "https://www.google.com/" url
+    Then WebAgent is on GoogleSearch
+    And WebAgent type "<keyword>" into SearchBox
     Then WebAgent click on SearchButton
-    Then WebAgent is on SearchResultsPage
-    Then WebAgent goes to next page
-    Then WebAgent selects the second-last link
-    Then WebAgent opens that page
+    Then WebAgent scroll current page to width:0 height:300
     Then WebAgent exit
 
-    Examples: 
-      | keyword |
-      | Citi |
+    
+ 		Examples:
+      | keyword  |
+      | Cucumber |
+      | Selenium |
       
