@@ -15,9 +15,6 @@
 #<> (placeholder)
 #""
 
-
-
-
 Feature: Clearing Account Mapping - Derivative Clearing System
  
   Background: 
