@@ -16,7 +16,7 @@
         <aspectj.version>1.8.3</aspectj.version>
         <maven.cucumber.reporting.version>3.7.0</maven.cucumber.reporting.version>
         <maven.build.timestamp.format>yyyy-MM-dd_HH-mm-ss</maven.build.timestamp.format>
-		<cucumberReporting.outputDirectory>reports/${maven.build.timestamp}</cucumberReporting.outputDirectory>
+		<cucumberReporting.outputDirectory>${project.build.directory}/${maven.build.timestamp}</cucumberReporting.outputDirectory>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--<buildNumber>${maven.build.timestamp}</buildNumber>-->
         <java.version>1.8</java.version>
@@ -122,7 +122,7 @@
                 <executions>
                     <execution>
                         <id>execution</id>
-			<phase>${generateReportRunPhase}</phase>
+						<phase>${generateReportRunPhase}</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
@@ -154,7 +154,7 @@
                 <executions>
                     <execution>
                         <id>execution</id>
-			<phase>${generateReportRunPhase}</phase>
+						<phase>${generateReportRunPhase}</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
@@ -168,8 +168,8 @@
 					<testSuiteDirectory>${featuresDir}</testSuiteDirectory>
 					<testSuiteName>GUI Examples</testSuiteName>
 					<testType>Regression</testType>
-					<uploadToDashboard>true</uploadToDashboard>
-					<sendEmailResult>false</sendEmailResult>
+					<uploadToDashboard>false</uploadToDashboard>
+					<sendEmailResult>true</sendEmailResult>
 					<cucumberReportingOutputDirectory>${cucumberReporting.outputDirectory}</cucumberReportingOutputDirectory>
 					<additionalClasspathElements>
 		              <additionalClasspathElement>${project.build.directory}/target/classes</additionalClasspathElement>            
@@ -202,8 +202,8 @@
                             </plugins>
                             <strict>true</strict>
                             <monochrome>true</monochrome>
-                              <tags>
-                                <tag>@WEB</tag>
+                            <tags>
+                                <tag>@Accounting</tag>
                                 <tag>~@ignore</tag>
                             </tags>
                             <useTestNG>false</useTestNG>
