@@ -122,7 +122,7 @@
                 <executions>
                     <execution>
                         <id>execution</id>
-						<phase>${generateReportRunPhase}</phase>
+			<phase>${generateReportRunPhase}</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
@@ -154,7 +154,7 @@
                 <executions>
                     <execution>
                         <id>execution</id>
-						<phase>${generateReportRunPhase}</phase>
+			<phase>${generateReportRunPhase}</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
