@@ -28,4 +28,4 @@ Feature: Clearing Accounts - Account Details- Test 10
 		
 		Examples:
 			| mnemonic |  
-			| 222902DD 
+			| 222902DD |
