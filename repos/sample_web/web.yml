@@ -33,11 +33,75 @@ Repository:
     
   AccountingMapping:
     trait: //*[@id="cv-responsive-logo"]
-    Url: https://uat.citivelocity.com/cv2/go/PRIME/X19GUl9f90gbghulkdkd
-    ClearingAccountsTab: body > app-root > div > div > app-sidebar > div > div > p-sidepanelmenu > ul > li.ng-tns-c2-0.active-menuitem > a
+    Url: https://uat.citivelocity.com/cv2/go/PRIME_FUT_DCS
+    ClearingAccountsTab: /html/body/app-root/div/div/app-sidebar/div/div/p-sidepanelmenu/ul/li[2]/a
     AccountMappingTab: /html/body/app-root/div/div/app-sidebar/div/div/p-sidepanelmenu/ul/li[2]/ul/p-sidepanelmenusub/ul/li[1]/a
-    MnemonicTextbox: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[1]/exchange-account-search/div[1]/div/div[7]/p-autocomplete/span/input
+    MnemonicTextbox: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[1]/exchange-account-search/div[1]/div/div[4]/p-autocomplete/span/input
+    AddMnemonicBox: //*[@id="d-mnemonic"]/span/input
     Search_Button: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[1]/exchange-account-search/div[2]/div/button[1]/span[2]
     FirstSearchResult: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[2]/div/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[1]
+    CCPDropDownList: //*[@id="d-clearingHouse"]/div/div[2] 
+    LCHOption: //*[@id="d-clearingHouse"]/div/div[3]/div/ul/li[4]
+    ProductDropDownList: //*[@id="d-product"]/div/div[2]
+    IRSOption: //*[@id="d-product"]/div/div[3]/div/ul/li[2]
+    BICCodeBox: //*[@id="d-bicCode"]
+    CCPAccountTextBox: //*[@id="d-clearingHouseAccount"]
+    SaveBox: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/p-dialog[1]/div/div[2]/form/p-footer/div/button[2]/span[2]
+    TrianaEnabledCheckBox: //*[@id="d-trianaEnabled"]/div/div[2]
     
+    
+    Add_Button: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[2]/div/p-datatable/div/div[1]/p-header/div/button[1]/span[2]
+    
+    
+    PendingApprovals_Tab: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/ul/li[3]/a/span
+    FirstApprovalCheckBox: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[1]/div/div[2]/div/table/tbody/tr[1]/td[1]/p-dtcheckbox/div/div[2]
+    ApproveButton: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[2]/p-footer/div/div[1]/button[2]/span[2]
+    DenyButton: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[2]/p-footer/div/div[1]/button[1]/span[2]
+    ApprovalHistoryButton: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[2]/p-footer/div/div[2]/button/span[2]
+    
+    
+    AccountDetailsTab: /html/body/app-root/div/div/app-sidebar/div/div/p-sidepanelmenu/ul/li[2]/ul/p-sidepanelmenusub/ul/li[2]/a
+    MnemonicBox: //*[@id="mnemonic"]/span/input
+    Search_Button_2: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-clearing-account/div[1]/clearing-account-search/div/div[2]/div/button[1]/span[2]
+    SecondSearchResult: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-clearing-account/div[2]/div/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr/td[1]
+    BackButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/footer/div/button[1]/span[2]
+    ResetAccountButton: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-clearing-account/div[1]/clearing-account-search/div/div[2]/div/button[2]/span[2]
+    RegionBox: //*[@id="d_region"]
+    FundCodeBox: //*[@id="d_fundCode"] 
+    ClientBox: //*[@id="d_client"]
+    BranchBox: //*[@id="d_branch"]
+    CACBuyAlgorithmDropDown: //*[@id="d_cacBuyAlgorithm"]/div/label  
+    BasicOptimizedExcessTab: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[5]
+    ThirdOptionfromList: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[3]
+    SaveButton2: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/footer/div/button[2]/span[2]
+    MultiBranchInitialSetupButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/footer/div/button[3]/span[2] 
+    CandidateAccountButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[2]/div/div[2]/div[2]/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[1]/span/button
+    CloseChildWindowButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[2]/div/div[1]/a/span
+    CloseWindowButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[1]/div/div[1]/a/span
+    AddorRemoveButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/div/div[2]/div[2]/p-datatable/div/div[1]/p-header/div/button/span[2]
+    RemoveButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[2]/div/div[2]/div[1]/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr/td[1]/span/button/span[2]
+    RemoveFirstAccountButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[1]/div/div[2]/div[1]/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[1]/span/button/span[2]
+    AddRemoveButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/div/div[2]/div[3]/p-datatable/div/div[1]/p-header/div/button
+    AccountIndicatorButton: //*[@id="accountIndicator"]/span/button/span[2] 
+    PBAccountButton: //*[@id="accountIndicator"]/span/div/ul/li[3]
+    IBRMultiplierTypeButton: //*[@id="d_knockinType"]/div/div[3] 
+    MultiTieredOption: //*[@id="d_knockinType"]/div/div[4]/div/ul/li[1]
+    AddRemoveButton2: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/div/div[2]/div[2]/div/div[3]/button/span[2]
+    StartRangeBox: //*[@id="thresholdStart"]/span/input
+    EndRangeBox: //*[@id="thresholdEnd"]/span/input
+    MultiplierBox: //*[@id="multiplier"]/span/input
+    ADDButton2: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[3]/div/div[2]/div[1]/button/span[2]
+    CloseWindowButton2: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[3]/div/div[1]/a/span 
+    
+    
+    
+    PendingDetailApprovalsTab: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/ul/li[2]/a
+    FirstEntryTab: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[1]/div/div[2]/div/table/tbody/tr[1]/td[1]/p-dtcheckbox/div/div[2]
+    ApproveTab: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[2]/p-footer/div/div[1]/button[2]/span[2]
+    DenyTab: /html/body/app-root/div/div/div[2]/app-clearing-account-container/p-tabview/div/div/p-tabpanel[2]/div/app-clearing-account-approvals/div[1]/p-datatable/div/div[2]/p-footer/div/div[1]/button[1]/span[2]
+    LSOCtoCCPTab: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/div/div[2]/div[3]/div/button/span[2]
+    CMEBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/p-spinner[1]/span/input
+    LCHBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/p-spinner[2]/span/input
+    CitiBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/p-spinner[3]/span/input
+    AddBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/div/button/span[2]
     
