@@ -15,6 +15,6 @@ Feature: Clearing Accounts -> Account Mapping --> View/Edit Mapping - Test 4
 		Then WebAgent click on ExportButton
     Then WebAgent exit
 
-		Examples:
-			| mnemonic |
-			| 222902DD |
+	Examples:
+	| mnemonic |
+	| 222902DD |
