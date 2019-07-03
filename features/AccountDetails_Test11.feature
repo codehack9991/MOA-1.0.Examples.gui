@@ -31,6 +31,6 @@ Feature: CLearing Account Mapping - Account Details Tab of Account Details - Tes
 
 		Then WebAgent exit
   	Examples:
-			| mnemonic | StartRange | EndRange | MultiplierValue |
+			| mnemonic | StartRange | EndRange | MultiplierValue 
 			| 222902DD |      7     |   11     |       2         
 			
