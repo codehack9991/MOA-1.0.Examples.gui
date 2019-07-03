@@ -25,4 +25,4 @@ Feature: Clearing Accounts -> Account Mapping --> View/Edit Mapping - Test 6
     Examples: 
       | keyword  | CCPAccount   |
       | 222      | CARLTONHILLE |
-      |222456GH  | CARLTONHILLE |
+     # |222456GH  | CARLTONHILLE |
