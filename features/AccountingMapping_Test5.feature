@@ -88,4 +88,4 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
 
     Examples: 
       | mnemonic | CCPAccount   |
-      | 222902DD | CARLTONHILLE 
+      | 222902DD | CARLTONHILLE |
