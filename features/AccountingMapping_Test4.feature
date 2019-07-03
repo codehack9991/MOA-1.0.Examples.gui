@@ -16,5 +16,5 @@ Feature: Clearing Accounts -> Account Mapping --> View/Edit Mapping - Test 4
     Then WebAgent exit
 
 	Examples:
-	| mnemonic |
+	| mnemonic 
 	| 222902DD |
