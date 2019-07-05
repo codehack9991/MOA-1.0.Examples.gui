@@ -40,17 +40,20 @@ Repository:
     AddMnemonicBox: //*[@id="d-mnemonic"]/span/input
     Search_Button: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[1]/exchange-account-search/div[2]/div/button[1]/span[2]
     FirstSearchResult: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[2]/div/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[1]
+    FirstOptionBox: //*[@id="d-mnemonic"]/span/div/ul/li[1]
     CCPDropDownList: //*[@id="d-clearingHouse"]/div/div[2] 
     LCHOption: //*[@id="d-clearingHouse"]/div/div[3]/div/ul/li[4]
     ProductDropDownList: //*[@id="d-product"]/div/div[2]
     IRSOption: //*[@id="d-product"]/div/div[3]/div/ul/li[2]
     BICCodeBox: //*[@id="d-bicCode"]
     CCPAccountTextBox: //*[@id="d-clearingHouseAccount"]
+    SaveButton: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/p-dialog[1]/div/div[2]/form/p-footer/div/button/span[2]
     SaveBox: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/p-dialog[1]/div/div[2]/form/p-footer/div/button[2]/span[2]
     TrianaEnabledCheckBox: //*[@id="d-trianaEnabled"]/div/div[2]
     
     
     Add_Button: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[2]/div/p-datatable/div/div[1]/p-header/div/button[1]/span[2]
+    ExportButton: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/div/p-tabpanel[1]/div/app-exchange-account/div[2]/div/p-datatable/div/div[1]/p-header/div/button[2]
     
     
     PendingApprovals_Tab: /html/body/app-root/div/div/div[2]/app-exchange-account-container/p-tabview/div/ul/li[3]/a/span
@@ -70,7 +73,7 @@ Repository:
     FundCodeBox: //*[@id="d_fundCode"] 
     ClientBox: //*[@id="d_client"]
     BranchBox: //*[@id="d_branch"]
-    CACBuyAlgorithmDropDown: //*[@id="d_cacBuyAlgorithm"]/div/label  
+    CACBuyAlgorithmDropDown: //*[@id="d_cacBuyAlgorithm"]/div/div[2]/span 
     BasicOptimizedExcessTab: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[5]
     ThirdOptionfromList: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[3]
     SaveButton2: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/footer/div/button[2]/span[2]
