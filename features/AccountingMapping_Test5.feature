@@ -17,6 +17,7 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
     Then WebAgent click on Add_Button
     #Then WebAgent is on SearchResults
     When WebAgent type "<mnemonic>" into AddMnemonicBox
+    Then WebAgent click on FirstOptionBox
     Then WebAgent click on CCPDropDownList
     Then WebAgent click on LCHOption
     Then WebAgent click on ProductDropDownList
@@ -24,7 +25,7 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
     
     #And WebAgent type "<CCP>" into CCPBox
     #And WebAgent type "<Product>" into ProductBox
-    And WebAgent type "<CCPAccount>" into CCPAccountBox
+    And WebAgent type "<CCPAccount>" into CCPAccountTextBox
     Then WebAgent type "ABC123" into BICCodeBox
     Then WebAgent click on SaveButton
 
@@ -45,6 +46,7 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
     Then WebAgent click on Add_Button
     #Then WebAgent is on SearchResults
     When WebAgent type "<mnemonic>" into AddMnemonicBox
+    Then WebAgent click on FirstOptionBox
     Then WebAgent click on CCPDropDownList
     Then WebAgent click on LCHOption
     Then WebAgent click on ProductDropDownList
@@ -70,7 +72,9 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
     Then WebAgent click on AccountMappingTab
     Then WebAgent click on Add_Button
     #Then WebAgent is on SearchResults
-    When WebAgent type "<mnemonic>" into AddMnemonicBox
+    Then WebAgent type "<mnemonic>" into AddMnemonicBox
+    #And WebAgent set timeout 5 seconds
+    Then WebAgent click on FirstOptionBox
     Then WebAgent click on CCPDropDownList
     Then WebAgent click on LCHOption
     Then WebAgent click on ProductDropDownList
@@ -78,7 +82,7 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
     
     #And WebAgent type "<CCP>" into CCPBox
     #And WebAgent type "<Product>" into ProductBox
-    And WebAgent type "<CCPAccount>" into CCPAccountBox
+    And WebAgent type "<CCPAccount>" into CCPAccountTextBox
     #Then WebAgent type "ABC123" into BICCodeBox
     Then WebAgent click on SaveButton
 
@@ -88,4 +92,4 @@ Feature: Clearing Account Mapping - Checking Search Functionality- Test Case 5
 
     Examples: 
       | mnemonic | CCPAccount   |
-      | 222902DD | CARLTONHILLE |
+      | 222      | CARLTONHILLE |
