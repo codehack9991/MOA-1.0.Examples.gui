@@ -1,4 +1,4 @@
-Feature: CLearing Account Mapping - Account Details Tab of Account Details - Test 11
+Feature: Clearing Accounts - Account Details- Test 11
 
   Background: 
     Given Wait 3 seconds
