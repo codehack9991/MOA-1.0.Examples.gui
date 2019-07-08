@@ -115,5 +115,5 @@ Repository:
     CMEBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/p-spinner[1]/span/input
     LCHBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/p-spinner[2]/span/input
     CitiBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/p-spinner[3]/span/input
-    AddBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/div/button/span[2]
+    AddBox: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[9]/div/div[2]/div/button/span[2
     
