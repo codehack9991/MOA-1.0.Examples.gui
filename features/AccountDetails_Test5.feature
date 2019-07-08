@@ -21,7 +21,7 @@ Feature: Clearing Accounts - Account Details- Test 5
 		Then WebAgent click on CACBuyAlgorithmDropDown
 		#Then WebAgent set timeout 5 seconds
 		Then WebAgent exit
-  	Examples:
+  		Examples:
 			| mnemonic |
 			| 222902DD |
 			| CG029380 |
