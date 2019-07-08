@@ -1,4 +1,4 @@
-Feature: CLearing Account Mapping - Account Details Tab of Account Details - Test 7
+Feature: Clearing Accounts - Account Details- Test 7
 
   Background: 
     Given Wait 3 seconds
@@ -25,10 +25,10 @@ Feature: CLearing Account Mapping - Account Details Tab of Account Details - Tes
 		
 		
 		Then WebAgent exit
-  	Examples:
+  		Examples:
 			| mnemonic |
 			| 222902DD |
 			| CMEValue | LCHValue | CitiValue | 
-		  |   0.1    |   0.2    |    0.1    |
-	    |   0.9    |   0.2    |    0.1    |
+		  	|   0.1    |   0.2    |    0.1    |
+	   		|   0.9    |   0.2    |    0.1    |
 	
