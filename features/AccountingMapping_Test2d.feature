@@ -18,4 +18,4 @@ Feature: Clearing Accounts -> Account Mapping --> View/Edit Mapping - Test 2d
     #Then WebAgent is on SearchResults
 
     
-    Then WebAgent exit
+    Then WebAgent exi
