@@ -1,4 +1,4 @@
-Feature: CLearing Account Mapping - Account Details Tab of Account Details - Test 6
+Feature: Clearing Accounts - Account Details- Test 6
 
   Background: 
     Given Wait 3 seconds
@@ -45,6 +45,6 @@ Feature: CLearing Account Mapping - Account Details Tab of Account Details - Tes
 		
 		
 		Then WebAgent exit
-  	Examples:
+  		Examples:
 			| mnemonic |
 			| 222902DD |
