@@ -32,6 +32,6 @@ Feature: Clearing Accounts - Account Details- Test 7
 		Then WebAgent exit
   		Examples:
 			| CMEValue | LCHValue | CitiValue | 
-		  |   0.1    |   0.2    |    0.1    |
+		  	|   0.1    |   0.2    |    0.1    |
 	    |   0.9    |   0.2    |    0.1    |
 	
