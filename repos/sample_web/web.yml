@@ -85,6 +85,9 @@ Repository:
     CACBuyAlgorithmDropDown: //*[@id="d_cacBuyAlgorithm"]/div/div[2]/span 
     BasicOptimizedExcessTab: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[5]
     ThirdOptionfromList: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[3]
+    ExcessCollateralPostingDropDown: //*[@id="d_colPostingType"]/div/div[2]
+    CashOption: //*[@id="d_colPostingType"]/div/div[3]/div/ul/li[2]
+    EMEAMarginCACOption: //*[@id="d_cacBuyAlgorithm"]/div/div[3]/div/ul/li[2]
     SaveButton2: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/footer/div/button[2]/span[2]
     MultiBranchInitialSetupButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-panel/div/div[2]/div/footer/div/button[3]/span[2] 
     CandidateAccountButton: /html/body/app-root/div/div/div[2]/app-clearing-account-details/p-dialog[2]/div/div[2]/div[2]/p-datatable/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[1]/span/button
