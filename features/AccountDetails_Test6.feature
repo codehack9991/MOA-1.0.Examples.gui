@@ -18,7 +18,7 @@ Feature: Clearing Accounts - Account Details- Test 6
     Then WebAgent double click on SecondSearchResult
     Then WebAgent scroll current page to width:0 height:300
 		
-		Then WebAgent click on CACBuyAlgorithmDropDown
+    Then WebAgent click on CACBuyAlgorithmDropDown
 		Then WebAgent click on BasicOptimizedExcessTab
 		Then WebAgent click on ExcessCollateralPostingDropDown
 		
