@@ -30,4 +30,4 @@ Feature: CLearing Account Mapping - Pending Approvals - Test 2
 
     Examples: 
       | keyword  | CCPAccount   |
-      | 222      | CARLTONHILLE |
+      | 222      | CARLTONHILLE 
