@@ -203,7 +203,7 @@
                             <strict>true</strict>
                             <monochrome>true</monochrome>
                             <tags>
-                                <tag>@Accounting</tag>
+                                <tag>@PendingDetails1,@PendingDetails2,@PendingDetails3,@PendingDetails4,@PendingDetails5,@Pending1,@Pending2,@Pending4,@Pending5,@Pending6,@Pending7,@Accounting1,@Accounting2a,@Accounting2b,@Accounting2c,@Accounting2d,@Accounting3,@Accounting4,@Accounting5,@Accounting6,@AccountDetails1,@AccountDetails2,@AccountDetails3,@AccountDetails4,@AccountDetails5,@AccountDetails6,@AccountDetails7,@AccountDetails8,@AccountDetails9,@AccountDetails10,@AccountDetails11</tag>
                                 <tag>~@ignore</tag>
                             </tags>
                             <useTestNG>false</useTestNG>
