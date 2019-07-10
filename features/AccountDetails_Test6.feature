@@ -20,7 +20,7 @@ Feature: Clearing Accounts - Account Details- Test 6
 		
     Then WebAgent click on CACBuyAlgorithmDropDown
     Then WebAgent click on BasicOptimizedExcessTab
-		Then WebAgent click on ExcessCollateralPostingDropDown
+    Then WebAgent click on ExcessCollateralPostingDropDown
 		
 		
 		Then WebAgent exit
