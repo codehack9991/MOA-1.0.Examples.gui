@@ -32,5 +32,5 @@ Feature: Clearing Accounts - Account Details- Test 11
 		Then WebAgent exit
   		Examples:
 			| mnemonic | StartRange | EndRange | MultiplierValue |
-			| 222902AN |      7     |   11     |       2         
+			| 222902AN |      7     |   11     |       2         |
 			
